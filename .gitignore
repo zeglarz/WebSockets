@@ -1,0 +1,30 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Web Projects Template template
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+# MacOS system files
+.DS_Store
+
+# Node files
+/node_modules
+
+# Config/Secrets
+**/default.json
+**/production.json
+**/secrets.json
+**/config.json
+!**/
+.env
+.env.example
+.env.local
+.env.staging
+
+# SCSS
+**/*.scss
+
+# Dist
+**/dist
